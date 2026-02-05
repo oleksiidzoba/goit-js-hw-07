@@ -164,6 +164,9 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
 }
+.btn:hover {
+  background-color: #6c8cff;
+}
 .widget {
   border-radius: 8px;
   position: absolute;
@@ -193,4 +196,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
+}
+.change-color:hover {
+  background-color: #6c8cff;
 }
