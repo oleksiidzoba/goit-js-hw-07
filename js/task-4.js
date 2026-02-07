@@ -1,10 +1,10 @@
 const loginForm = document.querySelector('.login-form');
-loginForm.addEventListener('submit', event => {
+loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
-const {
-    elements: { email, password }
-} = loginForm;
-     const emailValue = email.value.trim();
+
+const { email, password } = loginForm;
+    
+    const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
 
 if (emailValue === '' || passwordValue === '') {
@@ -19,5 +19,5 @@ if (emailValue === '' || passwordValue === '') {
 
     console.log(formData);
 
-    form.reset();
+    loginForm.reset();
   });
