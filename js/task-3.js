@@ -3,5 +3,5 @@ const nameOutput = document.querySelector('#name-output')
 
 nameInput.addEventListener('input', () => {
     const trValue = nameInput.value.trim();
-    nameOutput.textContent = trValue === '' ? 'Anonimus' : trValue;
+    nameOutput.textContent = trValue === '' ? 'Anonymous' : trValue;
 })
